@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A6BD6D29334CFF00E37DF7 /* HarmoniumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BD6C29334CFF00E37DF7 /* HarmoniumApp.swift */; };
+		A3A6BD6F29334CFF00E37DF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BD6E29334CFF00E37DF7 /* ContentView.swift */; };
+		A3A6BD7129334D0100E37DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD7029334D0100E37DF7 /* Assets.xcassets */; };
+		A3A6BD7529334D0100E37DF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD7429334D0100E37DF7 /* Preview Assets.xcassets */; };
+		A3A6BD7F29334D0200E37DF7 /* HarmoniumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BD7E29334D0200E37DF7 /* HarmoniumTests.swift */; };
+		A3A6BD8929334D0200E37DF7 /* HarmoniumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BD8829334D0200E37DF7 /* HarmoniumUITests.swift */; };
+		A3A6BD8B29334D0200E37DF7 /* HarmoniumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BD8A29334D0200E37DF7 /* HarmoniumUITestsLaunchTests.swift */; };
+		A3A6BDA02933703000E37DF7 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD992933703000E37DF7 /* note3.wav */; };
+		A3A6BDA12933703000E37DF7 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD9A2933703000E37DF7 /* note6.wav */; };
+		A3A6BDA22933703000E37DF7 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD9B2933703000E37DF7 /* note7.wav */; };
+		A3A6BDA32933703000E37DF7 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD9C2933703000E37DF7 /* note2.wav */; };
+		A3A6BDA42933703000E37DF7 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD9D2933703000E37DF7 /* note5.wav */; };
+		A3A6BDA52933703000E37DF7 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD9E2933703000E37DF7 /* note1.wav */; };
+		A3A6BDA62933703000E37DF7 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = A3A6BD9F2933703000E37DF7 /* note4.wav */; };
+		A3A6BDA8293370C700E37DF7 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6BDA7293370C700E37DF7 /* AudioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3A6BD7B29334D0200E37DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A6BD6129334CFF00E37DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A6BD6829334CFF00E37DF7;
+			remoteInfo = Harmonium;
+		};
+		A3A6BD8529334D0200E37DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A6BD6129334CFF00E37DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A6BD6829334CFF00E37DF7;
+			remoteInfo = Harmonium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3A6BD6929334CFF00E37DF7 /* Harmonium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A6BD6C29334CFF00E37DF7 /* HarmoniumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumApp.swift; sourceTree = "<group>"; };
+		A3A6BD6E29334CFF00E37DF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3A6BD7029334D0100E37DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A6BD7229334D0100E37DF7 /* Harmonium.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Harmonium.entitlements; sourceTree = "<group>"; };
+		A3A6BD7429334D0100E37DF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3A6BD7A29334D0200E37DF7 /* HarmoniumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmoniumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A6BD7E29334D0200E37DF7 /* HarmoniumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumTests.swift; sourceTree = "<group>"; };
+		A3A6BD8429334D0200E37DF7 /* HarmoniumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmoniumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A6BD8829334D0200E37DF7 /* HarmoniumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumUITests.swift; sourceTree = "<group>"; };
+		A3A6BD8A29334D0200E37DF7 /* HarmoniumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3A6BD992933703000E37DF7 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		A3A6BD9A2933703000E37DF7 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		A3A6BD9B2933703000E37DF7 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		A3A6BD9C2933703000E37DF7 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		A3A6BD9D2933703000E37DF7 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		A3A6BD9E2933703000E37DF7 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		A3A6BD9F2933703000E37DF7 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		A3A6BDA7293370C700E37DF7 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A6BD6629334CFF00E37DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A6BD7729334D0200E37DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A6BD8129334D0200E37DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A6BD6029334CFF00E37DF7 = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD6B29334CFF00E37DF7 /* Harmonium */,
+				A3A6BD7D29334D0200E37DF7 /* HarmoniumTests */,
+				A3A6BD8729334D0200E37DF7 /* HarmoniumUITests */,
+				A3A6BD6A29334CFF00E37DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A6BD6A29334CFF00E37DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD6929334CFF00E37DF7 /* Harmonium.app */,
+				A3A6BD7A29334D0200E37DF7 /* HarmoniumTests.xctest */,
+				A3A6BD8429334D0200E37DF7 /* HarmoniumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A6BD6B29334CFF00E37DF7 /* Harmonium */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD9829336A2100E37DF7 /* Utilities */,
+				A3A6BD9729336A1600E37DF7 /* Sounds */,
+				A3A6BD6C29334CFF00E37DF7 /* HarmoniumApp.swift */,
+				A3A6BD6E29334CFF00E37DF7 /* ContentView.swift */,
+				A3A6BD7029334D0100E37DF7 /* Assets.xcassets */,
+				A3A6BD7229334D0100E37DF7 /* Harmonium.entitlements */,
+				A3A6BD7329334D0100E37DF7 /* Preview Content */,
+			);
+			path = Harmonium;
+			sourceTree = "<group>";
+		};
+		A3A6BD7329334D0100E37DF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD7429334D0100E37DF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3A6BD7D29334D0200E37DF7 /* HarmoniumTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD7E29334D0200E37DF7 /* HarmoniumTests.swift */,
+			);
+			path = HarmoniumTests;
+			sourceTree = "<group>";
+		};
+		A3A6BD8729334D0200E37DF7 /* HarmoniumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD8829334D0200E37DF7 /* HarmoniumUITests.swift */,
+				A3A6BD8A29334D0200E37DF7 /* HarmoniumUITestsLaunchTests.swift */,
+			);
+			path = HarmoniumUITests;
+			sourceTree = "<group>";
+		};
+		A3A6BD9729336A1600E37DF7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BD9E2933703000E37DF7 /* note1.wav */,
+				A3A6BD9C2933703000E37DF7 /* note2.wav */,
+				A3A6BD992933703000E37DF7 /* note3.wav */,
+				A3A6BD9F2933703000E37DF7 /* note4.wav */,
+				A3A6BD9D2933703000E37DF7 /* note5.wav */,
+				A3A6BD9A2933703000E37DF7 /* note6.wav */,
+				A3A6BD9B2933703000E37DF7 /* note7.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A3A6BD9829336A2100E37DF7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6BDA7293370C700E37DF7 /* AudioPlayer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A6BD6829334CFF00E37DF7 /* Harmonium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A6BD8E29334D0200E37DF7 /* Build configuration list for PBXNativeTarget "Harmonium" */;
+			buildPhases = (
+				A3A6BD6529334CFF00E37DF7 /* Sources */,
+				A3A6BD6629334CFF00E37DF7 /* Frameworks */,
+				A3A6BD6729334CFF00E37DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmonium;
+			productName = Harmonium;
+			productReference = A3A6BD6929334CFF00E37DF7 /* Harmonium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3A6BD7929334D0200E37DF7 /* HarmoniumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A6BD9129334D0200E37DF7 /* Build configuration list for PBXNativeTarget "HarmoniumTests" */;
+			buildPhases = (
+				A3A6BD7629334D0200E37DF7 /* Sources */,
+				A3A6BD7729334D0200E37DF7 /* Frameworks */,
+				A3A6BD7829334D0200E37DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A6BD7C29334D0200E37DF7 /* PBXTargetDependency */,
+			);
+			name = HarmoniumTests;
+			productName = HarmoniumTests;
+			productReference = A3A6BD7A29334D0200E37DF7 /* HarmoniumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3A6BD8329334D0200E37DF7 /* HarmoniumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A6BD9429334D0200E37DF7 /* Build configuration list for PBXNativeTarget "HarmoniumUITests" */;
+			buildPhases = (
+				A3A6BD8029334D0200E37DF7 /* Sources */,
+				A3A6BD8129334D0200E37DF7 /* Frameworks */,
+				A3A6BD8229334D0200E37DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A6BD8629334D0200E37DF7 /* PBXTargetDependency */,
+			);
+			name = HarmoniumUITests;
+			productName = HarmoniumUITests;
+			productReference = A3A6BD8429334D0200E37DF7 /* HarmoniumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A6BD6129334CFF00E37DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A3A6BD6829334CFF00E37DF7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A3A6BD7929334D0200E37DF7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A3A6BD6829334CFF00E37DF7;
+					};
+					A3A6BD8329334D0200E37DF7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A3A6BD6829334CFF00E37DF7;
+					};
+				};
+			};
+			buildConfigurationList = A3A6BD6429334CFF00E37DF7 /* Build configuration list for PBXProject "Harmonium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3A6BD6029334CFF00E37DF7;
+			productRefGroup = A3A6BD6A29334CFF00E37DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A6BD6829334CFF00E37DF7 /* Harmonium */,
+				A3A6BD7929334D0200E37DF7 /* HarmoniumTests */,
+				A3A6BD8329334D0200E37DF7 /* HarmoniumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A6BD6729334CFF00E37DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A6BDA62933703000E37DF7 /* note4.wav in Resources */,
+				A3A6BDA02933703000E37DF7 /* note3.wav in Resources */,
+				A3A6BDA22933703000E37DF7 /* note7.wav in Resources */,
+				A3A6BDA12933703000E37DF7 /* note6.wav in Resources */,
+				A3A6BDA32933703000E37DF7 /* note2.wav in Resources */,
+				A3A6BDA52933703000E37DF7 /* note1.wav in Resources */,
+				A3A6BD7529334D0100E37DF7 /* Preview Assets.xcassets in Resources */,
+				A3A6BD7129334D0100E37DF7 /* Assets.xcassets in Resources */,
+				A3A6BDA42933703000E37DF7 /* note5.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A6BD7829334D0200E37DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A6BD8229334D0200E37DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A6BD6529334CFF00E37DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A6BD6F29334CFF00E37DF7 /* ContentView.swift in Sources */,
+				A3A6BD6D29334CFF00E37DF7 /* HarmoniumApp.swift in Sources */,
+				A3A6BDA8293370C700E37DF7 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A6BD7629334D0200E37DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A6BD7F29334D0200E37DF7 /* HarmoniumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A6BD8029334D0200E37DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A6BD8929334D0200E37DF7 /* HarmoniumUITests.swift in Sources */,
+				A3A6BD8B29334D0200E37DF7 /* HarmoniumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3A6BD7C29334D0200E37DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A6BD6829334CFF00E37DF7 /* Harmonium */;
+			targetProxy = A3A6BD7B29334D0200E37DF7 /* PBXContainerItemProxy */;
+		};
+		A3A6BD8629334D0200E37DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A6BD6829334CFF00E37DF7 /* Harmonium */;
+			targetProxy = A3A6BD8529334D0200E37DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3A6BD8C29334D0200E37DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3A6BD8D29334D0200E37DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A3A6BD8F29334D0200E37DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Harmonium/Harmonium.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmonium/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.Harmonium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3A6BD9029334D0200E37DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Harmonium/Harmonium.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Harmonium/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.Harmonium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3A6BD9229334D0200E37DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HarmoniumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmonium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harmonium";
+			};
+			name = Debug;
+		};
+		A3A6BD9329334D0200E37DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HarmoniumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmonium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Harmonium";
+			};
+			name = Release;
+		};
+		A3A6BD9529334D0200E37DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HarmoniumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harmonium;
+			};
+			name = Debug;
+		};
+		A3A6BD9629334D0200E37DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishal.HarmoniumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Harmonium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A6BD6429334CFF00E37DF7 /* Build configuration list for PBXProject "Harmonium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A6BD8C29334D0200E37DF7 /* Debug */,
+				A3A6BD8D29334D0200E37DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A6BD8E29334D0200E37DF7 /* Build configuration list for PBXNativeTarget "Harmonium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A6BD8F29334D0200E37DF7 /* Debug */,
+				A3A6BD9029334D0200E37DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A6BD9129334D0200E37DF7 /* Build configuration list for PBXNativeTarget "HarmoniumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A6BD9229334D0200E37DF7 /* Debug */,
+				A3A6BD9329334D0200E37DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A6BD9429334D0200E37DF7 /* Build configuration list for PBXNativeTarget "HarmoniumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A6BD9529334D0200E37DF7 /* Debug */,
+				A3A6BD9629334D0200E37DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A6BD6129334CFF00E37DF7 /* Project object */;
+}
